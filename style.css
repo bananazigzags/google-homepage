@@ -1,4 +1,71 @@
 img {
-    margin-left: 500px;
-    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 22%;
+    height: 22%;
+}
+
+a {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+header {
+    margin-bottom: auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.footer-left {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.footer-right {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+body {
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    color: darkgrey;
+}
+
+.left {
+    padding-right: 20px;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+.buttons {
+    margin: auto;
+}
+
+button {
+    border-color: white;
+    border-radius: 10%;
+    height: 30px;
+}
+
+button:hover {
+    border: 1px solid;
+    border-color: lightgray;
+}
+p {
+    padding: 30px;
 }

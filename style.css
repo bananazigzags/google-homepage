@@ -88,7 +88,7 @@ body {
 }
 
 .right {
-    padding-right: 25px;
+    padding-right: 25px
 }
 
 .buttons {
@@ -112,8 +112,7 @@ p {
 }
 
 #russia {
-    margin-top: 180px;
-    margin-bottom: 0px;
+    margin: 0px auto 0px 10px;
     display: block;
     padding: 15px;
     border-bottom: 1px solid #dadce0;
@@ -122,6 +121,10 @@ p {
 }
 
 footer {
+    height: 140px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     color: grey;
     background-color: #f2f2f2;
 }

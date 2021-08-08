@@ -1,15 +1,3 @@
-<!-- 
-    Google logo
-    https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
-    
-    Cached page for reference:
-    https://web.archive.org/web/20191130234759/https://www.google.com/
-
-    Material Icons
-    https://fonts.google.com/icons
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,33 +9,36 @@
 </head>
 <body>
     <header>
-        <div class="top">
-            <a href="#" class="right">Почта</a>
-            <a href="#" class="right">Картинки</a>
-            <!-- <img src="dots.png" class="right"> -->
+        <div class="header-stuff">
+            <a href="#" class="header-text">Почта</a>
+            <a href="#" class="header-text">Картинки</a>
+            <img src="dots.png" id="dots">
+            <img src="google-pic.jpg" id="avatar">
         </div>
     </header>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <input type="text" class="search-box">
     <div class="buttons">
-    <button>Поиск в Google</button>
-    <button>Мне повезёт!</button>
-    <p>Сервисы Google доступны на разных языках: <a href="#" style="color: blue;">English</a></p>
+        <input class="input-button" label="Поиск в Google" value="Поиск в Google"></input>
+        <input class="input-button" label="Мне повезёт!" value="Мне повезёт!"></input>
     </div>
+    <p id="services">Сервисы Google доступны на разных языках: <a href="#" style="color: blue;">English</a></p>
     
     <footer>
-        <div class="footer-left">
+        <p id="russia">Россия</p>
+        <div class="carbon">
+            <img id="leaf" src="little-leaf.png" class="carbon-item">
+            <p class="carbon-item">Нулевой баланс выбросов углекислого газа с 2007 года</p>
+        </div>
         <a href="#" class="left">Все о Google</a>
         <a href="#" class="left">Реклама</a>
         <a href="#" class="left">Для бизнеса</a>
         <a href="#" class="left">Как работает Google Поиск</a>
-        </div>
-
         <div class="footer-right">
-            <a href="#" class="right">Конфиденциальность</a>
-            <a href="#" class="right">Условия</a>
-            <a href="#" class="right">Настройки</a>
+        <a href="#" class="right">Конфиденциальность</a>
+        <a href="#" class="right">Условия</a>
+        <a href="#" class="right">Настройки</a>
         </div>
-
     </footer>
 </body>
 </html>
